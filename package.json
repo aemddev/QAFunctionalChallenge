@@ -1,0 +1,26 @@
+{
+  "name": "test-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:all": "npm run test src/tests/features/",
+    "test:parallel": "npm run test -- --parallel"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@playwright/test": "^1.43.0",
+    "@types/node": "^20.12.5",
+    "eslint": "^8.57.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.4",
+    "typescript-eslint": "^7.6.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.4.0"
+  },
+  "description": ""
+}
